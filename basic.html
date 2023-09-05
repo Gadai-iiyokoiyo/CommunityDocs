@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{BEB2} - GCD</title>
+</head>
+<body>
+  <center>
+    <h1>{BEB2}</h1>
+    POST:<small>{BEBN}</small> / <a href="/report?p={BEB2}">🏴Report</a>
+    <hr>
+  </center>
+  {BEB1}
+  <hr>
+  COMMENT:
+  <form action="/comment" method="post">
+    <input type="submit" value="POST">
+    Title:<input name="title">
+    <input type="hidden" name="code" value="{DCODE}">
+    User-Code:<input name="uc"><br>
+    <textarea name="text" style="height: 408px; width: 1208px;"></textarea>
+  </form><br>
+  {$COMMENT}
+</body>
+</html>
