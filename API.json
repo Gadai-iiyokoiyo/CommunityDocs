@@ -1,5 +1,5 @@
 {
     "Name":"CommunityDocs_Base",
-    "SiteManager":""
-
+    "SiteManager":"",
+    "APIBlock":false
 }
